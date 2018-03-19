@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/color_gradient"
+    android:layout_height="match_parent"
+    tools:context="domain.aro.travel.Plane_Ticket_Activity">
+
+    <ImageView
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:src="@drawable/avion"
+        android:background=""
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="400dp"></LinearLayout>
+    <ImageView
+        android:paddingBottom="50dp"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:src="@drawable/avion"
+        android:background="@drawable/circulo"
+        android:layout_height="150dp" />
+
+    
+</RelativeLayout>

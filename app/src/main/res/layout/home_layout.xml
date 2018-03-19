@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="domain.aro.travel.Home_Activity"
+    android:background="@drawable/color_gradient">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="40dp"
+        android:background="@color/grey">
+
+    </View>
+
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:elevation="40dp"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:layout_marginHorizontal="25dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/avianzinho"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="30dp"
+        android:elevation="40dp"
+        android:background="@drawable/background">
+
+
+        <ImageView
+            android:layout_marginHorizontal="25dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ooootrembaum"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="290dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:elevation="40dp"
+        android:background="@drawable/background">
+
+
+        <ImageView
+            android:layout_marginHorizontal="105dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/carrrrrinhum"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:elevation="40dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/you_will_travel_by"
+        android:textColor="@color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+android:gravity="center"
+        android:background="@color/white"
+        android:elevation="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:textColor="@color/facecolor"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:drawableTop="@drawable/ic_home_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:textColor="@color/facecolor"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:drawableTop="@drawable/ic_business_center_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tours"
+                android:textColor="@color/facecolor"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:drawableTop="@drawable/ic_search_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:textColor="@color/facecolor"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:drawableTop="@drawable/ic_face_black_24dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

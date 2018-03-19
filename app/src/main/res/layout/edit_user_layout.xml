@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="domain.aro.travel.Edit_user_Activity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/view"/>
+
+    <View
+        android:id="@+id/viewprofile"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/imgedit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/imgperson"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nameuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:text="@string/abdallah_mostafa"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:layout_toRightOf="@id/nameuser"
+        android:layout_alignBaseline="@id/nameuser"
+        android:layout_marginLeft="2dp"/>
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nameuser"
+        android:text="Mansoura, Egypt"
+        android:textColor="#BEBEBE"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/privatedetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Details"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/viewprofile"/>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/privatedetails"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/signupbox1"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="12sp">
+
+
+            <TextView
+                android:id="@+id/editemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/textgreycolor"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/signupbox2"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/signupbox1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/editpassword"
+                    android:textColor="@color/textgreycolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tocomnuita fome"
+                    android:inputType="textPassword"
+                    android:textColor="@color/facecolor"
+                    android:layout_alignBaseline="@id/editpassword"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/signupbox3"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:layout_marginTop="10dp"
+            android:padding="12sp"
+            android:layout_below="@id/signupbox2">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/textgreycolor"
+                    android:id="@+id/editgrander"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grader"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="@color/facecolor"
+                    android:layout_alignBaseline="@id/editgrander"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/signupbox4"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/signupbox2"
+            android:layout_toRightOf="@id/signupbox3">
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/textgreycolor"
+                    android:id="@+id/editage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21"
+                    android:textColor="@color/facecolor"
+                    android:layout_alignBaseline="@id/editage"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/signupbox5"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:padding="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/signupbox4">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/textgreycolor"
+                    android:id="@+id/editphonernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(XX)XXXXX-XXXX"
+                    android:textColor="@color/facecolor"
+                    android:layout_alignBaseline="@id/editphonernumber"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

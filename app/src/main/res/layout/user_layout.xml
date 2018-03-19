@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/color_gradient"
+    tools:context="domain.aro.travel.User_Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/x"
+        android:textSize="25sp"
+        android:background="@color/transparent"/>
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/imgperson"
+        android:contentDescription="@string/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abdallah_mostafa"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mansoura_egypt"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/social"
+            android:textSize="19sp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/social_networks"
+            android:drawablePadding="30dp"
+            android:textColor="#666"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_cloud_queue_black_24dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:drawablePadding="30dp"
+            android:textAllCaps="false"
+            android:id="@+id/travel"
+            android:textSize="19sp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/travel_guide"
+            android:textColor="#666"
+            android:textAlignment="viewStart"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_card_travel_black_24dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:drawablePadding="30dp"
+            android:textAllCaps="false"
+            android:id="@+id/notification"
+            android:textSize="19sp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/notification"
+            android:textColor="#666"
+            android:textAlignment="viewStart"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_notifications_none_black_24dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:drawablePadding="30dp"
+            android:id="@+id/help"
+            android:textSize="19sp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/help"
+            android:textColor="#666"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_help_outline_black_24dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:drawablePadding="30dp"
+            android:id="@+id/feed"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/feedback"
+            android:textColor="#666"
+            android:textAlignment="viewStart"
+            android:background="@color/white"
+            android:drawableStart="@drawable/ic_send_black_24dp"
+            tools:ignore="RtlSymmetry" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:drawableBottom="@drawable/ic_settings_black_24dp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:drawableBottom="@drawable/ic_input_black_24dp"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

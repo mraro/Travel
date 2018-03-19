@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="domain.aro.travel.Login_Activity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/travelicon"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/traveltext"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best way to organize travels"
+        android:textSize="13dp"
+        android:textColor="#999"
+        android:textStyle="bold"
+        android:layout_marginBottom="90dp"
+        android:textAlignment="center"/>
+
+    <Button
+
+        android:id="@+id/SingUp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient"
+        android:text="Sing Up" />
+
+    <Button
+        android:id="@+id/singIn"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:text="Sing In"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
